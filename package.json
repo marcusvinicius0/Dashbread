@@ -1,5 +1,6 @@
 {
   "name": "tailwind",
+  "author": "Marcus Vinicius Begheli Santos",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
     "@radix-ui/react-collapsible": "1.0.3",
     "@radix-ui/react-scroll-area": "1.0.4",
     "@radix-ui/react-select": "1.2.2",
