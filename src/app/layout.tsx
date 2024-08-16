@@ -8,12 +8,15 @@ import { Sidebar } from '@/components/Sidebar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Untitled UI',
+  title: 'Dashboard UI',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="antialiased">
+      <head>
+        <link rel="icon" href="/favicon.svg" />
+      </head>
       <body className={inter.className}>
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
