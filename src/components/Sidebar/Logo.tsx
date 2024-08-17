@@ -203,7 +203,7 @@ export function Logo() {
           </clipPath>
         </defs>
       </svg>
-      <span>Dashboard UI</span>
+      <span>Dashbread</span>
     </strong>
   )
 }
